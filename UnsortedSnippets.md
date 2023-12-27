@@ -243,7 +243,7 @@ let rev l = foldl (fun x ls -> x::ls) l []
 ### Big O notation
 > from best to worst runtime
 
-log n ≤ n ≤ n*log n ≤ n^2^ + log n ≤ n^3^ ≤ 2^n^
+log n ≤ n ≤ n*log n ≤ n^2 ≤ n^3 ≤ 2^n ≤ n!
 
 ## K
 ### Mathematial def. of gcd
